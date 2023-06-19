@@ -18,6 +18,7 @@ sample4 = '01.01.1970 - 00:00:01'
 new_sample4 = datetime.datetime.strptime(sample4, '%d.%m.%Y - %H:%M:%S')
 print(new_sample4)
 
+
 # Write a program to print yesterdays, today and tomorrow dates
 today = datetime.date.today()
 print(today - datetime.timedelta(days=1))
@@ -46,3 +47,5 @@ def two_weeks_before(timestamp):
 
 
 print(two_weeks_before(some_day))
+
+
